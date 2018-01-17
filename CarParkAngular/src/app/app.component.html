@@ -1,0 +1,7 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<h1>{{title}}</h1>
+Parking entered time: <input type="text" name="entryTime" id="entryTime" [(ngModel)]="entryDate" />
+Parking exit time: <input type="text" name="exitTime" id="exitTime" [(ngModel)]="exitDate"/>
+<button (click)="submit()">Submit</button>
+<h4>Here is the response</h4>
+{{parkingRate | json}}
